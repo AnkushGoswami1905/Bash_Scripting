@@ -1,0 +1,19 @@
+file.txt -
+
+find /etc -type f &> file.txt
+
+
+
+find_results.txt and find_ erorrs.txt -
+
+find /etc -type f 1>find_results.txt 2>find_errors.txt
+
+
+viewing the .log files -
+
+tail -f /var/log/updater.log
+
+tail -f /var/log/updater_error.log
+
+
+
